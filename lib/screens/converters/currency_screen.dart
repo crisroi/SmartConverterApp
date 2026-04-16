@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import '../services/currency_service.dart';
-import '../widgets/converter_card.dart';
-import '../widgets/screen_header.dart';
-import '../widgets/unit_dropdown.dart';
+import '../../services/currency_service.dart';
+import '../../widgets/converter_card.dart';
+import '../../widgets/screen_header.dart';
+import '../../widgets/unit_dropdown.dart';
 
 class CurrencyScreen extends StatefulWidget {
   const CurrencyScreen({super.key});
