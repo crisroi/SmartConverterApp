@@ -28,6 +28,10 @@ class ActiveTasksScreen extends StatelessWidget {
           style: GoogleFonts.poppins(
               color: Colors.white, fontWeight: FontWeight.w600),
         ),
+        centerTitle: true,
+        actions: const [
+          IconButton(icon: Icon(Icons.info_outline,), onPressed: null, tooltip: "Swipe left to edit task, swipe right to delete task",)
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: _accent,
